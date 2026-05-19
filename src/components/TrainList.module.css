@@ -1,0 +1,14 @@
+.listGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    width: 100%;
+  }
+  
+  .noTrains {
+    text-align: center;
+    color: #777777;
+    font-size: 1.1rem;
+    margin-top: 30px;
+    grid-column: 1 / -1;
+  }
