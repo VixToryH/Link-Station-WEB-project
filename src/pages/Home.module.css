@@ -1,0 +1,50 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .header h1 {
+    color: #0056b3;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    color: #666666;
+    font-size: 1.1rem;
+  }
+  
+  .searchSection {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .searchInput {
+    width: 100%;
+    max-width: 600px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    transition: border-color 0.2s ease;
+    outline: none;
+  }
+  
+  .searchInput:focus {
+    border-color: #0056b3;
+  }
+  
+  .sectionTitle {
+    font-size: 1.5rem;
+    color: #333333;
+    margin-bottom: 20px;
+    border-left: 4px solid #0056b3;
+    padding-left: 10px;
+  }
