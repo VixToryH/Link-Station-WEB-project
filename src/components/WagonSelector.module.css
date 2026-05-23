@@ -1,0 +1,48 @@
+.container {
+    margin-bottom: 24px;
+  }
+  
+  .title {
+    font-size: 18px;
+    margin-bottom: 12px;
+    color: #1a1a2e;
+  }
+  
+  .wagonList {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  
+  .wagonBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background: white;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .wagonBtn:hover {
+    border-color: #0056b3;
+    background: #f0f4ff;
+  }
+  
+  .active {
+    border-color: #0056b3;
+    background: #0056b3;
+    color: white;
+  }
+  
+  .wagonNumber {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .wagonType {
+    font-size: 12px;
+    margin-top: 4px;
+  }
