@@ -8,8 +8,8 @@ export const trainsData = [
       departureTime: "06:00",
       duration: "6г 20хв",
       wagons: [
-        { id: 1, type: "Інтерсіті (1 клас)", rows: 10 },
-        { id: 2, type: "Інтерсіті (2 клас)", rows: 12 }
+        { id: 1, type: "Інтерсіті (1 клас)", rows: 10, seatsPerRow: 4 },
+        { id: 2, type: "Інтерсіті (2 клас)", rows: 12, seatsPerRow: 4 }
       ]
     },
     {
@@ -21,8 +21,8 @@ export const trainsData = [
       departureTime: "22:37",
       duration: "7г 43хв",
       wagons: [
-        { id: 1, type: "Купе", rows: 9 },
-        { id: 2, type: "Плацкарт", rows: 9 }
+        { id: 1, type: "Купе", rows: 9, seatsPerRow: 4 },
+        { id: 2, type: "Плацкарт", rows: 9, seatsPerRow: 6 }
       ]
     },
     {
@@ -34,8 +34,8 @@ export const trainsData = [
       departureTime: "21:40",
       duration: "10г 15хв",
       wagons: [
-        { id: 1, type: "Купе", rows: 9 },
-        { id: 2, type: "Люкс (СВ)", rows: 6 }
+        { id: 1, type: "Купе", rows: 9, seatsPerRow: 4 },
+        { id: 2, type: "Люкс (СВ)", rows: 6, seatsPerRow: 2 }
       ]
     },
     {
@@ -47,7 +47,7 @@ export const trainsData = [
       departureTime: "20:04",
       duration: "8г 46хв",
       wagons: [
-        { id: 1, type: "Плацкарт", rows: 12 }
+        { id: 1, type: "Плацкарт", rows: 12, seatsPerRow: 6 }
       ]
     }
   ];
